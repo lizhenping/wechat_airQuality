@@ -22,3 +22,4 @@
   解决方案： git pull origin master --allow-unrelated-histories
  7)推送到远程github上: git push -u origin master
  注意: 创建.gitignore文件[即隐藏规则，忽略哪些文件不需要引入到版本管理中]
+       该文件只能用于未被untracked的文件,也就是从来没有被git记录过的文件,若曾被记录过,则该文件是        完全失效的;
