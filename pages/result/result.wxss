@@ -4,3 +4,9 @@ text {
     font-size: 34rpx;
     font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
 }
+.result .container{
+  padding-left: 50px;
+}
+.result .container .section{
+  margin-left: 60px;
+}

@@ -1,8 +1,8 @@
-
 page {
-  background-color: #fbf9fe; 
+  background-color: #fbf9fe;
   height: 100%;
 }
+
 .container {
   min-height: 100%;
   display: flex;
@@ -10,38 +10,40 @@ page {
   justify-content: space-between;
   padding: 200rpx 0rpx;
   padding: 200rpx 20px;
-} 
+}
 
 .page {
-    min-height: 100%;
-    flex: 1;
-    background-color: #FBF9FE;
-    font-size: 32rpx;
-    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
-    overflow: hidden;
-}
-.page input{
-    padding: 20rpx 30rpx;
-    background-color: #fff;
-    border: 1px solid #cccccc;
-    border-radius: 5px;
-    margin-bottom: 10px;
+  min-height: 100%;
+  flex: 1;
+  background-color: #fbf9fe;
+  font-size: 32rpx;
+  font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif;
+  overflow: hidden;
 }
 
-.section{
-    margin-bottom: 80rpx;
-}
-.section__title{
-    margin-bottom: 16rpx;
-    padding-left: 30rpx;
-    padding-right: 30rpx;
-}
-
-.btn-area{
-    padding: 0 30rpx;
-}
-.btn-area button{
-    margin-top: 20rpx;
-    margin-bottom: 20rpx;
+.page input {
+  padding: 20rpx 30rpx;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 
+.section {
+  margin-bottom: 80rpx;
+}
+
+.section__title {
+  margin-bottom: 16rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
+
+.btn-area {
+  padding: 0 30rpx;
+}
+
+.btn-area button {
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}

@@ -35,7 +35,7 @@ Page({
       disabled: true
     });
     var nowDate = common.formateDate(new Date());
-    var finalUrl = common.addParams('../result/result',{city: this.data.inputVal,"level":"2.2级",time: nowDate});
+    var finalUrl = common.addParams('../result/result',{city: this.data.inputVal,level:"2.2级",time: nowDate,number:'19'});
     //请求后台数据，若成功，页面跳转，若失败，则弹出失败原因
     var status = 200;
     if(status == 200){

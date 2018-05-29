@@ -11,7 +11,7 @@
 
 /** 
  * 3.app的逻辑层:
-    * app.js中允许自定义全局的方法和全局变量[即app.js,app.wxss全局范围内可用]
+    * app.js中允许自定义全局的方法和全局变量[即app.js,app.wxss]
     * app.json中不能有任何的注释信息,否则页面会出错哟~
     * App()和Pages()注册程序和页面,同时程序不允许注册多个,getApp()和getPages()获取app实例和获取当前pages页;
     * 该方法接收一个对象: 对象里面有各种生命周期方法
@@ -21,8 +21,8 @@
 App({
   onLaunch: function () { //监听初始化;
     // 展示本地存储能力
-    var logs = wx.getStorageSync('logs') || []
-    logs.unshift(Date.now())
+    var logs = wx.getStorageSync('logs') || [];
+    logs.unshift(Date.now());
     wx.setStorageSync('logs', logs)
 
     // 登录
@@ -61,7 +61,7 @@ App({
     })
   },
   onShow: function () {  //监听显示, 也就是进入前台;
-    
+
   },
   onHide: function () {  //onHide: 监听隐藏,也就是按home离开微信;
 
