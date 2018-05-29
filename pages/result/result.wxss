@@ -1,0 +1,6 @@
+text {
+    display: block;
+    margin-bottom:10rpx;
+    font-size: 34rpx;
+    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+}

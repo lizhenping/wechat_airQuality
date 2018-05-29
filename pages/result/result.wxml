@@ -1,0 +1,10 @@
+<view class='page'>
+<view class='container' style='aligin-items: center'>
+ <icon class="section" type="success" size="70"></icon>
+ <view class='text_area'>
+    <text>查询城市: {{city}}</text>
+    <text>污染等级: {{level}}</text>
+    <text>更新时间: {{time}}</text>
+ </view>
+</view>
+</view>
