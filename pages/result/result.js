@@ -60,7 +60,7 @@ Page({
   },
 
   /**
-   * 用户点击右上角分享: 返回title,path,desc
+   * 用户点击右上角分享: 返回title,path,desc,path可拼接所需要的用户信息;
    */
   onShareAppMessage: function () {
     return {

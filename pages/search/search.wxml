@@ -3,11 +3,8 @@
 <view class='container'>
   <view class='section'>查询城市:{{inputVal}}</view>
   <!--
-  在实际的使用过程中哈,绑定的事件是不带括号的哇,不然会导致提示是否有注册
-    -->
-    <!--
-在wxml页面中,可以对.js文件中的数据进行绑定，同时,app.js,spp,wxss是作用于全局范围内的.
-  -->
+    在实际的使用过程中,绑定的事件是不带括号的哇,不然会导致提示是否有注册
+   -->
   <input bindinput='inputEvt' value='{{inputVal}}' placeholder='请输入需要查询的城市'></input>
   <view class='btn-group'>
     <button type='primary' class='common' disabled='{{disabled}}' bindtap='search'>查询</button>
